@@ -6,6 +6,7 @@ public class FloatDoubleExample {
 		double var1 =3.14;
 		//float var2 =3.14;  //컴파일 에러 (Type mismatch)
 		float var3 =  3.14F;
+		//double var3 = 3.14;
 		
 		//정밀도 테스트
 		double var4 = 0.1234567890123456789;
