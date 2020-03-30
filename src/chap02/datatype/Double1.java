@@ -15,6 +15,8 @@ public class Double1 {
 		double d = 3.14;
 		d = 3.14E-2;    //0.0314
 		System.out.println(d);
+		
+		
 	}
 
 }
