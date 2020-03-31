@@ -1,4 +1,4 @@
-package chap03.compare;
+package chap03.binary.compare;
 
 public class Compare {
 	public static void main(String[] args) {
@@ -6,6 +6,9 @@ public class Compare {
 		
 		int i =10;
 		int j = 15;
+		
+		
+		
 		
 		boolean b = i==j;
 		System.out.println(b);

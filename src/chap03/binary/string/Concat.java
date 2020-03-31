@@ -1,4 +1,4 @@
-package chap03.string;
+package chap03.binary.string;
 
 public class Concat {
 	public static void main(String[] args) {

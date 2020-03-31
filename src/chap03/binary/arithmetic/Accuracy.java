@@ -1,4 +1,4 @@
-package chap03.arithmetic;
+package chap03.binary.arithmetic;
 
 public class Accuracy {
 	public static void main(String[] args) {
