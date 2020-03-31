@@ -1,4 +1,4 @@
-package chap03.binary;
+package chap03.arithmetic;
 
 public class Overflow {
 	public static void main(String[] args) {
