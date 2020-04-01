@@ -76,5 +76,22 @@ public class WarmUP1 {
 			}
 
 		}
+		
+		
+		////////////////////////////////////////////////////
+		
+		public String frontBack(String str) {
+			if (str.length() > 1) {
+				char c1 = str.charAt(0);
+				char c2 = str.charAt(str.length() - 1);
+
+				String mid = str.substring(1, str.length() - 1);
+
+				return c2 + mid + c1;
+			} else {
+				return str;
+			}
+
+		}
 
 }
