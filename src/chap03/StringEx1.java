@@ -57,8 +57,57 @@ public class StringEx1 {
 		System.out.println(sub3);
 		
 		
+		// indexOf(String s) 
+		//부분 문자가 어디서 부터 시작되는지 알수있다
+		s1 = "자바스크립트";
+		int i = s1.indexOf("스크립트");
+		System.out.println(i);
+		
+		s1 = "990000-1234-56-7";
+		i=s1.indexOf("-");		//여러개일 경우는 첫번째 나오는 - 검색
+		System.out.println(i);
+		i =  s1.lastIndexOf("-");	//마지막 나오는 - 검색
+		System.out.println(i);
+		
+		// replace (String old, String new)
+		s1 = "나는 아이폰, 아이폰이 있다";
+		String news1 = s1.replace("아이폰", "갤럭시");
+		System.out.println(news1);
+		System.out.println(s1);
 		
 		
+		// toLowerCase() , toUpperCase()
+		s1 = "javaSCRIPT";
+		String ls1 =  s1.toLowerCase();
+		System.out.println(ls1);
+		System.out.println(s1);
+		
+
+		String us1 =  s1.toUpperCase();
+		System.out.println(us1);
+		System.out.println(s1);
+		
+		// equals(String s)
+		s1 = "자바";
+		s2 = "자바";
+		System.out.println(s1.equals(s2));
+		s1 = "자바";
+		s2 = "JAVA";
+		System.out.println(s1.equals(s2));
+		s1 = "자바";
+		s2 = "자바 ";
+		System.out.println(s1.equals(s2));
+		
+		//trim()  
+		//빈공간이 있다면 빈공간이 제거된 스트링 리턴한다. 
+		
+		s1 = "  자  바 ";
+		String ns1 = s1.trim();
+		System.out.println(ns1);
+		System.out.println(s1);
+		
+				
+
 		
 		
 	}
