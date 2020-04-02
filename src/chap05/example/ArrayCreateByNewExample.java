@@ -21,6 +21,7 @@ public class ArrayCreateByNewExample {
 		
 		//double배열 3칸짜리 생성
 		double[] arr2 =  new double[3];
+		//double은 기본 타입이라 0이 기본값으로 들어간다 더블타입인 0.0으로
 		
 		for(int i=0; i<3; i++) {
 			System.out.println("arr2["+ i+ "]:"+ arr2[i]);
@@ -37,6 +38,8 @@ public class ArrayCreateByNewExample {
 		
 		// String배열 3칸짜리 생성
 		String[] arr3 =  new String[3];
+		
+		// String이 참조변수라 기본값이 null 로 들어감.
 		for (int i =0; i<3; i++) {
 			System.out.println("arr3["+ i+ "]: "+ arr3[i]);
 		}

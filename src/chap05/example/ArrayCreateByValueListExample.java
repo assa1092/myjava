@@ -2,6 +2,7 @@ package chap05.example;
 
 public class ArrayCreateByValueListExample {
 	public static void main(String[] args) {
+			
 		int[] scores = {83, 90,87};
 		
 		System.out.println("scores[0] : " + scores[0]);
