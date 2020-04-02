@@ -14,7 +14,8 @@ public class WhileKeyControlExample {
 				System.out.println("-----------------------------");
 				System.out.println("1. 증속 |  2. 감속  | 3. 중지");
 				System.out.println("-----------------------------");
-				System.out.println(" 선택  :");
+				System.out.print(" 선택  :");
+				// System.out.print 출력만하고 줄바꿈하지 않는다 
 			}
 			
 			// 키보드로 입력을 받는다. 키 코드를 읽음..
