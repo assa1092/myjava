@@ -2,6 +2,9 @@ package chap05.example;
 
 public class StringEqualsExample {
 	public static void main(String[] args) {
+		//new 연산자를 쓰고 안쓰고에 따라 참조값이 달라질수있다..
+		
+		
 		String strVar1="신민철";
 		String strVar2="신민철";
 		
