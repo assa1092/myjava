@@ -8,6 +8,8 @@ public class ArrayCopyExample {
 		String[] oldStrArray = {"java", "array", "copy"};
 		String[] newStrArray = new String[5];
 		
+		
+		// 교재 167 page...
 		System.arraycopy(oldStrArray, 0, newStrArray, 0, oldStrArray.length);
 		
 		for(int i=0; i<newStrArray.length;i++) {

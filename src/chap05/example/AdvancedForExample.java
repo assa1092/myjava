@@ -5,9 +5,18 @@ public class AdvancedForExample {
 		int[] scores = {95, 71,84,93,87};
 		
 		int sum = 0;
+		
 		for (int score : scores) {
 			sum= sum+score;
 		}
+		
+		//향상된 for문 과 같은내용 
+//		for(int i =0;i < scores.length;i++) {
+//			sum = sum + scores[i];
+//		}
+		
+		
+		
 		System.out.println("점수 총합 = "+ sum);
 		
 		double avg= (double) sum/scores.length;
