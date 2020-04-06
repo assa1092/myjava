@@ -2,6 +2,8 @@ package chap06.lecture.constructor;
 
 public class MyPersonApp {
 	public static void main(String[] args) {
+		// 그림 08. this 와 instance
+		
 		Person p1 =  new Person("아이언맨", 40);
 //		p1.name = "아이언 맨";
 //		p1.age = 40;

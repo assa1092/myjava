@@ -4,9 +4,10 @@ public class Person {
 	String name;
 	int age;
 	
-	Person (String n, int a){
-		this.name = n;
-		this.age = a;
+	Person (String name, int age){
+		this.name = name;
+		//name = n;
+		this.age = age;
 		
 		System.out.println(this.name);
 		System.out.println(this.age);
