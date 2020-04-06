@@ -11,15 +11,16 @@ public class CarExample {
 		Scanner scanner =  new Scanner(System.in);
 		int selectNo =  scanner.nextInt();
 		
-		myCar.setGas(selectNo);
+		// Car의 setGas() 메소드 호출
+		myCar.setGas(selectNo);		
 		
-		boolean gasState = myCar.isLeftGas();
+		boolean gasState = myCar.isLeftGas();	//Car의 isLeftGas() 메소드 호출
 		if(gasState) {
 			System.out.println("출발합니다");
-			myCar.run();
+			myCar.run();	// Car의 run() 메소드 호출
 		}
 		
-		if(myCar.isLeftGas()) {
+		if(myCar.isLeftGas()) {	// Car의 isLeftGas() 메소드 호출
 			System.out.println("gas를 주입할 필요가 없습니다");
 			
 		} else {
