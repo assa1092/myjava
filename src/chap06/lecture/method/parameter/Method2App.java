@@ -9,6 +9,10 @@ public class Method2App {
 		m1.plus(9,10);
 		m1.triple2(3.14);
 		m1.triple2(3); 	//double 아닌 int 로 받아도 형변환이 되서 double 로 된다..
+		
+		m1.max(1,2,3,4);
+		m1.max(new int [] {6, 7, 8});
+		m1.max(2, 4,6,7,8,9,8,34);
 	}
 
 }
