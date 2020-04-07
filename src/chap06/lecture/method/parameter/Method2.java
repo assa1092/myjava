@@ -41,6 +41,7 @@ public class Method2 {
 			System.out.println(n[i]);
 						
 		}
+		// 입력된 값들중 최고점수...
 		for (int v : n) {
 			intmax = intmax < v ? v : intmax;
 		}
