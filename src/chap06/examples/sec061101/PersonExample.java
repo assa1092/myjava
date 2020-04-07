@@ -9,6 +9,7 @@ public class PersonExample {
 		System.out.println(p1.ssn);
 		System.out.println(p1.name);
 		
+		// final field는 값 수정 불가...
 //		p1.nation = "usa";
 //		p1.ssn = "654321-7654321";
 		p1.name = "을지문덕";
