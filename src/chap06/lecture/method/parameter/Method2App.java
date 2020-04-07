@@ -12,7 +12,7 @@ public class Method2App {
 		
 		m1.max(1,2,3,4);
 		m1.max(new int [] {6, 7, 8});
-		m1.max(2, 4,6,7,8,9,8,34);
+		m1.max(2, 4,6,7,8,89,8,34);
 	}
 
 }

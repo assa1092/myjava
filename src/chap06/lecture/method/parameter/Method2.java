@@ -35,9 +35,16 @@ public class Method2 {
 	// 어떤 타입의 값을 몇개나 받을지 정확히 모를때...
 	// int... n // 배열 타입
 	void max(int... n) {
+		int intmax=0;
+		System.out.println();
 		for (int i = 0; i <n.length;i++) {
 			System.out.println(n[i]);
+						
 		}
+		for (int v : n) {
+			intmax = intmax < v ? v : intmax;
+		}
+		System.out.println("최고점수는 : "+intmax);
 	}
 
 }
