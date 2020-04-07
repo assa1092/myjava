@@ -1,6 +1,7 @@
 package chap06.examples.sec061004;
 
 public class Car {
+	// instance field
 	int speed;
 	
 	void run() {
@@ -11,6 +12,7 @@ public class Car {
 		Car myCar = new Car();
 		myCar.speed = 60;
 		myCar.run();
+		
 	}
 
 }

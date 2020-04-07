@@ -15,15 +15,6 @@ public class MyClass {
 	}
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	void method() {
 		System.out.println(this.i);
 		System.out.println("인스턴스 메소드");
@@ -38,5 +29,7 @@ public class MyClass {
 		System.out.println("스태틱 메소드");
 			
 	}
-	
+		
+				
+		
 }
