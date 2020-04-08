@@ -235,7 +235,60 @@ public class WarmUP1 {
 			return r;
 		}
 		
+
+		////////////////////////////////////////////////////
 		
+		public boolean in3050(int a, int b) {
+			boolean in30 = a >= 30 && a <= 40 && b >= 30 && b <= 40;
+			boolean in40 = a >= 40 && a <= 50 && b >= 40 && b <= 50;
+
+			return in30 || in40;
+		}
+		
+		////////////////////////////////////////////////////
+
+		public int max1020(int a, int b) {
+			a = a >= 10 && a <= 20 ? a : 0;
+			b = b >= 10 && b <= 20 ? b : 0;
+
+			return Math.max(a, b);
+		}
+
+		////////////////////////////////////////////////////
+		
+		public boolean stringE(String str) {
+			int cnt = 0;
+			for (int i = 0; i < str.length(); i++) {
+				if (str.charAt(i) == 'e') {
+					cnt++;
+				}
+			}
+
+			return cnt >= 1 && cnt <= 3;
+		}
+		
+		////////////////////////////////////////////////////
+
+		public boolean lastDigit(int a, int b) {
+			int a1 = a % 10;
+			int b1 = b % 10;
+			return a1 == b1;
+		}
+		
+		////////////////////////////////////////////////////
+
+		public String endUp(String str) {
+			if (str.length() > 3) {
+				String left = str.substring(0, str.length() - 3);
+				String right = str
+						.substring(str.length() - 3, str.length())
+						.toUpperCase();
+				return left + right;
+			} else {
+				return str.toUpperCase();
+			}
+
+		}
 		
 		
 		
