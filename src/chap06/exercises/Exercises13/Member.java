@@ -1,7 +1,16 @@
 package chap06.exercises.Exercises13;
 
 public class Member {
-	String name;
+
+	private String name;
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
 	String id;
 	String password;
 	int age;
