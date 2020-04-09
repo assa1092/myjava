@@ -34,13 +34,45 @@ public class BankApplication {
 	}
 
 	private static void withdraw() {
-		// TODO Auto-generated method stub
+		System.out.println("-----------");
+		System.out.println("출금");
+		System.out.println("-----------");
+		System.out.print("계좌번호:");
+		String ano = scanner.nextLine();
+		Account account = findAccount(ano);
+		System.out.print("출금액:");
+		int money = scanner.nextInt();
+		scanner.nextLine();
+		account.setBalance(account.getBalance() - money);
+		System.out.println("결과:출금이 성공되었습니다.");
 		
 	}
 
 	private static void deposit() {
-		// TODO Auto-generated method stub
+		System.out.println("-----------");
+		System.out.println("예금");
+		System.out.println("-----------");
+		System.out.print("계좌번호:");
+		String ano = scanner.nextLine();
+		Account account = findAccount(ano);
+		System.out.print("예금액:");
+		int money = scanner.nextInt();
+		scanner.nextLine();
+		account.setBalance(account.getBalance()+money);
+		System.out.println("결과:예금이 성공되었습니다.");
 		
+		
+		
+		
+		
+	}
+
+	private static Account findAccount(String ano) {
+		for (int i =0; i< size;i++) {
+			accountArray[i].getAno().equals(ano);
+			return accountArray[i];
+		}
+		return null;
 	}
 
 	private static void accountList() {
@@ -65,11 +97,11 @@ public class BankApplication {
 		scanner.nextLine();
 		
 		Account account = new Account(ano, owner, balance);
-		account
+		accountArray[size] = account;
 		size++;
 		
 		
-		System.out.print("결과:계좌가 생성되었습니다");
+		System.out.println("결과:계좌가 생성되었습니다");
 	}
 
 }
