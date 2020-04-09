@@ -64,6 +64,10 @@ public class BankApplication {
 		int balance = scanner.nextInt();
 		scanner.nextLine();
 		
+		Account account = new Account(ano, owner, balance);
+		account
+		size++;
+		
 		
 		System.out.print("결과:계좌가 생성되었습니다");
 	}

@@ -11,7 +11,7 @@ public class SupersonicAirplane extends Airplane {
 		if(flyMode == SUPERSONIC) {
 			System.out.println("초음속비행합니다.");
 		} else {
-			// Airplane 객체의 fly() 메소드 호출
+			// 부모객체인  Airplane 객체의 fly() 메소드 호출
 			super.fly();
 		}
 	}
