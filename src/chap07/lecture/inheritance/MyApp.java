@@ -6,7 +6,10 @@ public class MyApp {
 		c.i = 30;
 		c.method();
 		
-		// Child 클래스가 Parent
+		// 상속에 상속 가능하다...
+		GrandChild g = new GrandChild();
+		g.i=40;
+		g.method();
 	}
 
 }

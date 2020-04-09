@@ -1,13 +1,15 @@
 package chap07.examples.sec070201;
 
-public class DmbCellPhone extends CellPhone{
+public class DmbCellPhone extends CellPhone{		// CellPhone 클래스를 상속 받는다 (extends)
 	// field
 	int channel;
 	
 	// constructor
 	DmbCellPhone(String model, String color, int channel){
-		this.model = model;
-		this.color = color;
+		
+		this.model = model;			// CellPhone 으로부터 상속받은 필드 model, color
+		this.color = color;			// CellPhone 으로부터 상속받은 필드 model, color
+		
 		this.channel = channel;
 	}
 	
