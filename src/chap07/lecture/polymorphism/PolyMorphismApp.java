@@ -5,6 +5,20 @@ public class PolyMorphismApp {
 		Tiger t= new Tiger();
 		Cat c = new Cat();
 		
+		long[] larr = new long[3];
+		larr[0] = 3;
+		larr[1] = 983434L;
+		
+		Tiger[] tarr = new Tiger[3];
+		tarr[0] = new Tiger();
+		tarr[1] = new Tiger();
+		
+		KindaCat[] karr = new KindaCat[3];
+		karr[0] = new KindaCat();
+		karr[1] = new Tiger();
+		karr[2] = new Cat();
+		
+		
 		t.cry();
 		c.cry();
 
