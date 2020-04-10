@@ -1,6 +1,6 @@
 package chap07.examples.sec070803;
 
-public abstract class Phone {
+public abstract class Phone {		// 추상클래스 선언 abstract
 	//field
 	public String owner;
 	
