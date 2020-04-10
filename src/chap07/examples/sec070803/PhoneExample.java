@@ -6,9 +6,11 @@ public class PhoneExample {
 		
 		SmartPhone smartPhone = new SmartPhone("홍길동");
 		
-		smartPhone.turnOn();
+		smartPhone.turnOn();			// 상속받은 Phone 클래스의 메소드
 		smartPhone.internetSearch();
-		smartPhone.turnOff();
+		smartPhone.turnOff();			// 상속받은 Phone 클래스의 메소드
+		
+		Phone phone = smartPhone;		//	인스턴스만 못만들고 형변환은 가능(?)
 		
 	}
 
