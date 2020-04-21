@@ -15,7 +15,7 @@ public class Window {
 		
 	};
 	
-	
+	// 생성자에서 매개값으로 익명객체를 사용
 	Window(){
 		button1.setOnClickListener(listener);
 		button2.setOnClickListener(new Button.OnClickListener() {
