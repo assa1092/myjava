@@ -12,7 +12,7 @@ public class A {
 		B(){
 			System.out.println("B 객체가 생성됨");
 		}
-		int field;
+		int field1;
 //		static int field2;				//스태틱 필드 생성불가.
 		void method1() {}
 //		static void method2() {}		//스태틱 메소드 생성불가.
@@ -26,7 +26,7 @@ public class A {
 		C(){
 			System.out.println("C 객체가 생성됨");
 		}
-		int field;
+		int field1;
 		static int field2;
 		void method1() {}
 		static void method2() {}
