@@ -1,6 +1,7 @@
 package chap09.examples.sec090501;
 
 public class Anonymous {
+	
 	// 필드 초기값으로 대입
 	Person field =  new Person() {
 		void work() {
