@@ -12,8 +12,8 @@ public class MultiCatchExample {
 			
 		}catch(ArrayIndexOutOfBoundsException | NumberFormatException e) {
 			System.out.println("실행 매개값의 수가 부족하거나 숫자로 변환할수 없습니다.");
-			System.out.println(e.getMessage());
-			e.printStackTrace();
+			System.out.println(e.getMessage());		// e.getMessage() 에러코드 로그번호 
+			e.printStackTrace();					// e.printStackTrace() 에러코드 보여주기.
 		}catch(Exception e) {
 			System.out.println("알수 없는 예외 발생");
 		}finally {
