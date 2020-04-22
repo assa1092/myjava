@@ -2,15 +2,14 @@ package chap09.examples.Ex06;
 
 public class Chatting {
 	void startChat(String chatId) {
-		String nickName = null;
-		nickName = chatId;
+		String nickName = chatId;
 		Chat chat = new Chat() {
 			@Override
 			public void start() {
 				while(true) {
 					String inputData = "안녕하세요.";
-//					String message = "["+ nickName + "]" + inputData;
-//					sendMessage(message);
+					String message = "["+ nickName + "]" + inputData;
+					sendMessage(message);
 				}
 				
 			}
