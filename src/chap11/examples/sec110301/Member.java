@@ -22,4 +22,11 @@ public class Member {
 		
 	}
 	
+	
+	@Override
+	public int hashCode() {
+		// TODO Auto-generated method stub
+		return id.hashCode();
+	}
+	
 }
