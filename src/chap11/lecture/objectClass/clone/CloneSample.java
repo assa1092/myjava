@@ -6,10 +6,10 @@ class Book implements Cloneable{
 	
 	@Override
 	public Object clone() throws CloneNotSupportedException {
-		Book n = new Book();
-		n.isbn = this.isbn;
-		n.authors = this.authors;
-		return n;
+//		Book n = new Book();
+//		n.isbn = this.isbn;
+//		n.authors = this.authors;
+		return super.clone();
 	}
 	
 }
