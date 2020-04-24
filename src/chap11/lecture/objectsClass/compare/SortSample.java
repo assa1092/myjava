@@ -13,6 +13,7 @@ public class SortSample {
 		for(int n : intArr) {
 			System.out.println(n);
 		}
+		System.out.println();
 		
 		Book[] books = new Book[] {new Book(9), new Book(3), new Book(5)};
 		Arrays.sort(books, new BookComparator());

@@ -10,12 +10,14 @@ public class Key {
 	
 	@Override
 	public int hashCode() {
+		System.out.println("hashCode()");
 		
 		return number;
 	}
 	
 	@Override
 	public boolean equals(Object obj) {
+		System.out.println("equalsCode()");
 		if(obj instanceof Key) {
 			Key compareKey = (Key) obj;
 			if(this.number == compareKey.number) {
