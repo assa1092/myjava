@@ -8,6 +8,14 @@ public class ToStringExample {
 		Date obj2 =  new Date();
 		System.out.println(obj1.toString());
 		System.out.println(obj2.toString());
+		
+		
+		
+		
+		
+		
 	}
+	
+	
 
 }

@@ -1,4 +1,4 @@
-package chap09.lecture.localClass;
+package chap09.lecture.loCalClass;
 
 public class Outter {
 	Object method(final int param) {
