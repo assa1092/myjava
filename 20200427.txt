@@ -1,5 +1,5 @@
 1. 자바의 자료형을 두 가지로 나누면?
-- 기본자료형(Printeve type)
+- 기본자료형(Primitive type)
 - 참조자료형(reference type)
 
 2. 기본 자료형의 종류:
@@ -24,11 +24,10 @@ double: 실수형의 기본자료형
 
 4. 변수 선언 공식
 - int a = 10;
-byte b = 50;
-Dog d = new Dog(1, 2, 4);
-Dog e = new Dog();
-Dog f = e;
-
+- byte b = 50;
+- Dog d = new Dog(1, 2, 4);
+- Dog e = new Dog();
+- Dog f = e;
 자료형 변수명 = 자료형에 맞는 값;
 
 5. 접근제한자 =  접근제어지시자
@@ -45,7 +44,7 @@ private int a;
 public getA(){}
 public setA(){}
 
-7.class에 생성할 때 이용할 수  있는 접근제한자의 종류는?
+7.class에 생성할 때 이용할 수 있는 접근제한자의 종류는?
  default, public	
 (같은 클래스에서만 쓰기때문에 private X)
 
