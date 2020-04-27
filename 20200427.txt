@@ -1,0 +1,108 @@
+1. 자바의 자료형을 두 가지로 나누면?
+- 기본자료형(Printeve type)
+- 참조자료형(reference type)
+
+2. 기본 자료형의 종류:
+byte, char, short, int, long,  float, double, boolean
+- boolean: true, false
+- char : ''
+==================================
+== 정수형
+- byte : -128 ~ 127까지 표현 가능
+- short :x
+- int: 21억 ... 정수형의 기본자료형
+- long :  값L;, 값l;
+===================================
+
+== 실수형
+float: 값F;, 값f;
+double: 실수형의 기본자료형
+
+3. 참조자료형을 정의 하시오.
+- 기본자료형이 아닌 자료형.
+- 참조
+
+4. 변수 선언 공식
+- int a = 10;
+byte b = 50;
+Dog d = new Dog(1, 2, 4);
+Dog e = new Dog();
+Dog f = e;
+
+자료형 변수명 = 자료형에 맞는 값;
+
+5. 접근제한자 =  접근제어지시자
+종류 및 그에 대한 설명을 적으시오.
+private : 해당 클래스.. 
+(디폴트/ 프렌들리) : 같은 패키지
+protected : 같은 패키지에서만 인식. 단, 상속관계가 성립하면 다른 패키지에서도 인식이 됨
+public: 다 인식됨.
+
+6. 변수 선언시 가장 적합한 접근 제한자는? private
+다른걸로 선언해도 어차피 변수에 접근할려면 getters/ setters 메서드와 함계 사용됨
+
+private int a;
+public getA(){}
+public setA(){}
+
+7.class에 생성할 때 이용할 수  있는 접근제한자의 종류는?
+ default, public	
+(같은 클래스에서만 쓰기때문에 private X)
+
+com.naver
+
+public class TV{
+	private int ch;
+	private int vol;
+
+	public TV(){}
+	public TV(int ch, int vol){
+		this.ch = ch;
+		this.vol = vol;
+	}
+
+public int getCh(){
+	return ch;
+}
+public int getvol(){
+	return vol;
+}
+public void setCh(int ch){
+	this.ch = ch;
+}
+public setVol(int vol){
+	this.vol = vol;
+}
+
+public void power(){
+	sysout("tv를 켠다");
+}
+
+
+
+}
+
+9. 외부로부터 넘겨받은 구구단의 단 정보를 이용하여 
+해당 단을 출력하는 메소드  me1()을 생성하시오.
+
+1. 무반환 무파람
+2. 무반환 유파람-------set
+3. 유반환 무파람-------get
+4. 유반환 유파람
+
+
+public void me1(int dan){
+	for(int i=0;, i<10; i++){
+		sysout(dan + "X" + i + "=" + dan*i);
+	}
+}		
+
+10. me1()메서드를 이용해서 9단을 출력하고 싶다.
+me1()메서드를 호출하시오.
+me1(9);
+
+객체의 구성 요소를 표현하는 클래스의 요소?	=>변수
+객체의 기능(=능력)을 표현하는 클래스의 요소?	=>메소드
+
+
+
